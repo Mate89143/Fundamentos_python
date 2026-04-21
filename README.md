@@ -13,7 +13,7 @@ El repositorio está organizado por secciones, donde cada carpeta contiene los l
 **seccion3/** → Operadores - herramientas de manipulación de datos
 **seccion4/** → Variables
 
-## Sección 1 – El Programa "¡Hola, Mundo!"
+## Sección 1 - El Programa "¡Hola, Mundo!"
 
 ### Laboratorio 1: Trabajando con la función print()
 
@@ -121,4 +121,22 @@ print("  *****  " * 2)
   *****       *****
 
 Se utiliza la multiplicación de cadenas (* 2) para repetir el patrón.
+
+## Sección 2 - Literales de Python
+
+### Laboratorio 1: Literales de Python - Cadenas
+
+**Código:**
+
+print("\"Estoy\"\"\"aprendiendo\"\"\"\"\"Python\"\"\"")
+
+**Salida:**
+
+"Estoy"""aprendiendo"""""Python"""
+
+**Explicación:**
+
+Se utilizaron caracteres de escape (\) para imprimir comillas dentro de una cadena.
+Cada \" permite mostrar una comilla sin cerrar la cadena.
+Python interpreta correctamente la secuencia de escape y muestra el texto exacto.
 
