@@ -410,5 +410,110 @@ Suma: 4.0 + 1 = 5.0
 Resultado:
 5.0
 
+## Sección 4 - Variables
 
+### Laboratorio 1: Variables
 
+**Código:**
+
+# Crear variables
+john = 3
+mary = 5
+adam = 6
+
+# Imprimir valores
+print(john, mary, adam)
+
+# Calcular total
+total_apples = john + mary + adam
+
+# Imprimir total
+print(total_apples)
+
+# Extra (experimentación)
+print("Número total de manzanas:", total_apples)
+
+# Otras operaciones
+print("Suma:", john + mary)
+print("Resta:", adam - john)
+print("Multiplicación:", mary * adam)
+print("División:", adam / john)
+print("División entera:", adam // john)
+
+**Salida:**
+
+3 5 6
+14
+Número total de manzanas: 14
+Suma: 8
+Resta: 3
+Multiplicación: 30
+División: 2.0
+División entera: 2
+
+**Explicación:**
+
+Se crean variables para cada persona.
+Se suman usando otra variable (total_apples).
+Se usan diferentes operadores para practicar.
+
+### Laboratorio 2: Variables: un convertidor simple
+
+**Código:**
+
+kilometers = 12.25
+miles = 7.38
+
+# Conversiones
+miles_to_kilometers = miles * 1.61
+kilometers_to_miles = kilometers / 1.61
+
+# Resultados
+print(miles, "millas son", round(miles_to_kilometers, 2), "kilómetros")
+print(kilometers, "kilómetros son", round(kilometers_to_miles, 2), "millas")
+
+**Salida:**
+
+7.38 millas son 11.88 kilómetros
+12.25 kilómetros son 7.61 millas
+
+**Explicación:**
+
+1 milla = 1.61 km
+Se multiplica para convertir a km
+Se divide para convertir a millas
+round(..., 2) limita a 2 decimales
+
+### Laboratorio 3: Operadores y expresiones
+
+**Código:**
+
+x = 1
+x = float(x)
+
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+
+print("y =", y)
+
+Si a la primera "x" le cambiamos el "1" ya sea por un "0" o "-1" el resultado cambia.
+
+**Salida:**
+
+y = 3.0
+
+Si "x" es "0" el resultado "y" es -1.0
+Si "x" es "-1" el resultado "y" es -9.0
+
+**Explicación:**
+
+# Sustituir el valor de x:
+3(1)³ - 2(1)² + 3(1) - 1
+
+# Resolver potencias:
+3(1) - 2(1) + 3 - 1
+
+# Multiplicaciones:
+3 - 2 + 3 - 1
+
+# Resultado final:
+3
