@@ -517,3 +517,8 @@ Si "x" es "-1" el resultado "y" es -9.0
 
 # Resultado final:
 3
+
+### Conclusión:
+
+En estas cuatro secciones aprendí las bases de Python de una forma muy práctica. Primero entendí qué son los literales y cómo representar datos como números, textos y valores verdaderos o falsos. Luego vi cómo usar operadores para hacer cálculos y cómo funciona el orden de las operaciones. Después, con los ejercicios, pude aplicar todo eso y mejorar mi lógica paso a paso. Finalmente, aprendí a usar variables para guardar datos y reutilizarlos en el programa. En general, todo esto me ayudó a entender cómo empezar a programar y a resolver problemas de forma más clara y organizada.
+
